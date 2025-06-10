@@ -1,0 +1,41 @@
+.button {
+  all: unset;
+  align-items: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 20px;
+  position: relative;
+  width: 92px;
+}
+
+.button .text-wrapper {
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button.outline {
+  border: 1px solid;
+  border-color: #465ceb;
+}
+
+.button.solid {
+  background-color: #465ceb;
+}
+
+.button.outline .text-wrapper {
+  color: #465ceb;
+}
+
+.button.solid .text-wrapper {
+  color: #ffffff;
+}
